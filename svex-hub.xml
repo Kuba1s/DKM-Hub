@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://raw.githubusercontent.com/Kuba1s/DKM-Hub/main/svex-hub.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Svex HUB</name>
+  <summary xml:lang="en">Svex HUB</summary>
+  <implementation arch="*-x86_64" version="1.0.0" id="sha256new_CM7X54M5LKJMPET7D7XGIWF74T2CPZRGB4Z4U4GA6CCVB476EZFA">
+    <command name="run" path="Svex HUB.exe">
+      <runner interface="https://apps.0install.net/dotnet/framework.xml" command="run-gui" />
+    </command>
+    <manifest-digest sha256new="CM7X54M5LKJMPET7D7XGIWF74T2CPZRGB4Z4U4GA6CCVB476EZFA" />
+    <archive href="https://github.com/Kuba1s/DKM-Hub/raw/main/DKM-Hub.zip" size="633108" type="application/zip" />
+  </implementation>
+  <entry-point command="run" binary-name="Svex HUB" />
+</interface>
